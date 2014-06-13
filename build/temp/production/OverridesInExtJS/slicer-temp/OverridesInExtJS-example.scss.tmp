@@ -550,6 +550,7 @@ $include-extthemeneptune-resizer-splitter: true;
 $include-extthemeneptune-tab-tab: true;
 $include-extthemeneptune-toolbar-paging: true;
 $include-extthemeneptune-toolbar-toolbar: true;
+$include-overrides-data-store: true;
 $include-overridesinextjs-application: true;
 $include-overridesinextjs-controller-main: true;
 $include-overridesinextjs-model-user: true;

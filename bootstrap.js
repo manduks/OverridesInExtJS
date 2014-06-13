@@ -33,6 +33,7 @@ Ext.Loader.addClassPathMappings({
   "Ext.core.DomQuery": "ext/src/dom/Query.js",
   "Ext.rtl.EventObjectImpl": "ext/src/rtl/EventObject.js",
   "ExtThemeNeptune": "ext/packages/ext-theme-neptune/overrides",
+  "Overrides": "overrides",
   "OverridesInExtJS": "app"
 });
 Ext.ClassManager.addNameAlternateMappings({
@@ -869,6 +870,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "ExtThemeNeptune.tab.Tab": [],
   "ExtThemeNeptune.toolbar.Paging": [],
   "ExtThemeNeptune.toolbar.Toolbar": [],
+  "Overrides.data.Store": [],
   "OverridesInExtJS.Application": [],
   "OverridesInExtJS.controller.Main": [],
   "OverridesInExtJS.model.User": [],
@@ -1879,6 +1881,7 @@ Ext.ClassManager.addNameAliasMappings({
   "ExtThemeNeptune.tab.Tab": [],
   "ExtThemeNeptune.toolbar.Paging": [],
   "ExtThemeNeptune.toolbar.Toolbar": [],
+  "Overrides.data.Store": [],
   "OverridesInExtJS.Application": [],
   "OverridesInExtJS.controller.Main": [],
   "OverridesInExtJS.model.User": [],

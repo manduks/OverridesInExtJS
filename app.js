@@ -4,10 +4,17 @@
     Sencha Cmd when upgrading.
 */
 
+Ext.Loader.setConfig({
+    paths: {        
+        'Overrides': 'overrides'
+    }
+});
+
 Ext.application({
     name: 'OverridesInExtJS',
-
     extend: 'OverridesInExtJS.Application',
-    
+
+    requires:['Overrides.data.Store'],// importing our overrides
+
     autoCreateViewport: true
 });
