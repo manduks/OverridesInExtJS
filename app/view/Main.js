@@ -12,7 +12,7 @@ Ext.define('OverridesInExtJS.view.Main', {
     },
 
     defaults:{
-        padding:4,
+        padding:4
     },
     
 
